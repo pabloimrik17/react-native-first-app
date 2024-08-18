@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import { FC } from "react";
 
-const Profile: FC = () => {
+const Bookmark: FC = () => {
     return (
         <View>
-            <Text>Profile</Text>
+            <Text>Bookmark</Text>
         </View>
     )
 }
 
-export default Profile
+export default Bookmark

@@ -1,12 +1,12 @@
-import { View, Text } from "react-native";
 import { FC } from "react";
+import { Text, View } from "react-native";
 
 const Create: FC = () => {
-    return (
-        <View>
-            <Text>Create</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text>Create</Text>
+    </View>
+  );
+};
 
-export default Create
+export default Create;

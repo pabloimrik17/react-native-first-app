@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { View, Text } from "react-native";
+import { Text, View } from "react-native";
 
 const Query: FC = () => {
-    return (
-        <View>
-            <Text>Query</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text>Query</Text>
+    </View>
+  );
+};
 
-export default Query
+export default Query;

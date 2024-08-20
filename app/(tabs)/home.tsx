@@ -1,12 +1,12 @@
-import { View, Text } from "react-native";
 import { FC } from "react";
+import { Text, View } from "react-native";
 
 const Home: FC = () => {
-    return (
-        <View>
-            <Text>Home</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text>Home</Text>
+    </View>
+  );
+};
 
-export default Home
+export default Home;

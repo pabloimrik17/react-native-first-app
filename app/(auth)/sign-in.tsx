@@ -1,12 +1,12 @@
-import { View, Text } from "react-native";
 import { FC } from "react";
+import { Text, View } from "react-native";
 
 const SignIn: FC = () => {
-    return (
-        <View>
-            <Text>SignIn</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text>SignIn</Text>
+    </View>
+  );
+};
 
-export default SignIn
+export default SignIn;

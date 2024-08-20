@@ -1,12 +1,12 @@
-import { View, Text } from "react-native";
 import { FC } from "react";
+import { Text, View } from "react-native";
 
 const Bookmark: FC = () => {
-    return (
-        <View>
-            <Text>Bookmark</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text>Bookmark</Text>
+    </View>
+  );
+};
 
-export default Bookmark
+export default Bookmark;

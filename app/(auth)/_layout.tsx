@@ -1,12 +1,12 @@
 import { FC } from "react";
 import { Text, View } from "react-native";
 
-const Profile: FC = () => {
+const AuthLayout: FC = () => {
   return (
     <View>
-      <Text>Profile</Text>
+      <Text>AuthLayout</Text>
     </View>
   );
 };
 
-export default Profile;
+export default AuthLayout;

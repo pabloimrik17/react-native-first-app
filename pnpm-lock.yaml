@@ -11,6 +11,9 @@ importers:
       '@expo/vector-icons':
         specifier: ^14.0.2
         version: 14.0.2
+      '@hookform/resolvers':
+        specifier: ^3.9.0
+        version: 3.9.0(react-hook-form@7.53.0(react@18.2.0))
       '@react-navigation/native':
         specifier: ^6.0.2
         version: 6.1.18(react-native@0.74.3(@babel/core@7.24.9)(@babel/preset-env@7.24.8(@babel/core@7.24.9))(@types/react@18.2.79)(react@18.2.0))(react@18.2.0)
@@ -53,6 +56,9 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
+      react-hook:
+        specifier: ^0.0.1
+        version: 0.0.1
       react-native:
         specifier: 0.74.3
         version: 0.74.3(@babel/core@7.24.9)(@babel/preset-env@7.24.8(@babel/core@7.24.9))(@types/react@18.2.79)(react@18.2.0)
@@ -71,6 +77,9 @@ importers:
       react-native-web:
         specifier: ~0.19.10
         version: 0.19.12(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      zod:
+        specifier: ^3.23.8
+        version: 3.23.8
     devDependencies:
       '@babel/core':
         specifier: ^7.20.0
@@ -985,6 +994,11 @@ packages:
 
   '@hapi/topo@5.1.0':
     resolution: {integrity: sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==}
+
+  '@hookform/resolvers@3.9.0':
+    resolution: {integrity: sha512-bU0Gr4EepJ/EQsH/IwEzYLsT/PEj5C0ynLQ4m+GSHS+xKH4TfSelhluTgOaoc4kA5s7eCsQbM4wvZLzELmWzUg==}
+    peerDependencies:
+      react-hook-form: ^7.0.0
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -3982,6 +3996,15 @@ packages:
     peerDependencies:
       react: '>=17.0.0'
 
+  react-hook-form@7.53.0:
+    resolution: {integrity: sha512-M1n3HhqCww6S2hxLxciEXy2oISPnAzxY7gvwVPrtlczTM/1dDadXgUxDpHMrMTblDOcm/AXtXxHwZ3jpg1mqKQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18 || ^19
+
+  react-hook@0.0.1:
+    resolution: {integrity: sha512-2/Guf88/dGyFgUT7QDtBJ1l7V5yqTcAHlNRIZNTu2xg0KkDjaiYZp79ah49NDaLMI/J7voWcKLU8wMONG4A/1g==}
+
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -6350,6 +6373,10 @@ snapshots:
   '@hapi/topo@5.1.0':
     dependencies:
       '@hapi/hoek': 9.3.0
+
+  '@hookform/resolvers@3.9.0(react-hook-form@7.53.0(react@18.2.0))':
+    dependencies:
+      react-hook-form: 7.53.0(react@18.2.0)
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -10105,6 +10132,12 @@ snapshots:
   react-freeze@1.0.4(react@18.2.0):
     dependencies:
       react: 18.2.0
+
+  react-hook-form@7.53.0(react@18.2.0):
+    dependencies:
+      react: 18.2.0
+
+  react-hook@0.0.1: {}
 
   react-is@16.13.1: {}
 
